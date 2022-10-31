@@ -1,0 +1,38 @@
+.logo-placeholder{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+div.sidebars{
+    display: flex;
+}
+div.sidebars ul li{
+    list-style-type: none;
+    flex: 1;
+}
+div.sidebars a{
+    color: #2b2b2b;
+    height: 100%;
+    max-width: 200px;
+    width: 200px;
+    flex: 1;
+}
+.sidebars a:hover{
+    color: #2b2bb2;
+    transition: 0.3;
+}
+div.avatar_image{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image{
+    display: inline-block;
+    width: 200px;
+    
+}
+.username {
+   font-size: 22px;
+}
